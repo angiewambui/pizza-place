@@ -3,8 +3,8 @@
 background-image: url(../images/landss.jpeg);
 font-size: xx-large;
 color: white;
-padding-top: 5%;
-padding-bottom: 5%;
+padding-top: 15%;
+padding-bottom: 25%;
 font-style: italic;
 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
@@ -43,6 +43,16 @@ body{
 }
 .col-md-12 {
     float: left;
-    width: 33.33%;
-    padding: 5px;
+    width: 70%;
+    height: 20%;
+    
   }
+  .row1{
+      display: flex;
+}
+  .menu-overlay{
+      text-align: center;
+      background-color: black;
+      color: white;
+      
+    }
