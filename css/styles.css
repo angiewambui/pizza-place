@@ -42,9 +42,6 @@ body{
     animation: bounce 2s infinite;
 }
 .col-md-12 {
-    float: left;
-    width: 70%;
-    height: 20%;
     
   }
   .row1{
