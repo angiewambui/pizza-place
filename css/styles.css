@@ -31,7 +31,6 @@ body{
 }
 #welcome{
     text-align: center;
-
 }
 .button{
     background-color: skyblue;
@@ -42,3 +41,8 @@ body{
     border-style: ridge;
     animation: bounce 2s infinite;
 }
+.col-md-12 {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
