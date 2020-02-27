@@ -1,0 +1,44 @@
+#landing{
+    text-align: center;
+background-image: url(../images/landss.jpeg);
+font-size: xx-large;
+color: white;
+padding-top: 5%;
+padding-bottom: 5%;
+font-style: italic;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+nav{
+    background-color: black;
+    top:0;
+    width:30%;
+    position: fixed;
+}
+nav ul{ 
+    display: inline-block;
+    color: beige;
+    font-size: xx-large;
+}
+nav ul li {line-height: 0em;
+    display: inline-block;
+    margin: 30px;
+}
+body{
+    font-size: xx-large;
+}
+#fonts{
+    text-align: center;
+}
+#welcome{
+    text-align: center;
+
+}
+.button{
+    background-color: skyblue;
+    padding-top: 34px;
+    padding-bottom: 34px;
+    padding-right: 44px;
+    padding-left: 44px;
+    border-style: ridge;
+    animation: bounce 2s infinite;
+}
