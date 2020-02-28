@@ -41,9 +41,6 @@ body{
     border-style: ridge;
     animation: bounce 2s infinite;
 }
-.col-md-12 {
-    
-  }
   .row1{
       display: flex;
 }
@@ -51,5 +48,13 @@ body{
       text-align: center;
       background-color: black;
       color: white;
-      
+      padding-bottom: 5%;
+      padding-top: 10px;
+    }
+    .button1{
+        background-color: green;
+        padding-left: 45px;
+        padding-right: 45px;
+        padding-top: 50px;
+        padding-bottom: 50px;
     }
