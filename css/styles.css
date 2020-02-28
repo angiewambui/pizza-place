@@ -67,14 +67,20 @@ body{
         display: inline-block;
     }
     #container{
-        width: 40%;
         margin: auto;
-        background-image: url(../images/choices.jpeg;)
     }
     .choices{
         width: 100%;
         padding-top: 34px;
         padding-bottom: 34px;
-        font-size: x-large
-
+        font-size: x-large; 
+    }
+    #row3{
+        text-align: center;
+    }
+    .choices2{
+    width: 60%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: x-large;
     }
