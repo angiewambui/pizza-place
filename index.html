@@ -12,75 +12,118 @@
 </head>
 
 <body>
-    <div id="navbar">
-        <nav>
-            <ul>
-                <li>
-                    <a href="#home">HOME</a>
-                </li>
-                <li>
-                    <a href="#menu">MENU</a>
-                </li>
-                <li>
-                    <a href="#order">ORDER</a>
-                </li>
-                <li>
-                    <a href="#contactus">CONTACT</a>
-                </li>
-            </ul>
-        </nav>
-        <br><br><br>
-        <div id="landing">
-            <p>PIZZA PLACE</p>
-            <div class="h-buttons text-center">
-                <a href="#welcome">
-                    <button class="button">Go</button>
-                </a>
-            </div>
+    <div id="landing">
+        <p>PIZZA PLACE</p>
+        <div class="h-buttons text-center">
+            <a href="#welcome">
+                <button class="button">Go</button>
+            </a>
         </div>
-        <br>
-        <br>
-        <div id="welcome">
-            <br><br>
-            <div class="col-sm-12">
-                <div class="row">
-                    <div class="col-sm-6">
-                        <img src="images/16248515-woman-pizza-cook.jpg" width="15%" height="15%"
-                        alt="animated woman" class="image">
-                    </div>
-                    <div class="col-md-6 image">
-                        <h1 class="text-center txt txt-big">WELCOME <span class="pizz">TO OUR </span><span class="exc">PIZZA PLACE</span>
-                        </h1>
-                        <p class="text-center txt">The best pizza you'll ever taste</p>
-                        <p class="text-center txt">Order your pizza and we wil deliver it to your location.in less than 45 min</p>
-                        <a href="#menus"></a>
+    </div>
+    <br>
+    <br>
+    <div id="welcome">
+        <br><br>
+        <div class="col-sm-12">
+            <div class="row">
+                <div class="col-sm-6">
+                    <img src="images/16248515-woman-pizza-cook.jpg" width="15%" height="15%" alt="animated woman"
+                        class="image">
+                </div>
+                <div class="col-md-6 image">
+                    <h1 class="text-center txt txt-big">WELCOME <span class="pizz">TO OUR </span><span class="exc">PIZZA
+                            PLACE</span>
+                    </h1>
+                    <p class="text-center txt">The best pizza you'll ever taste</p>
+                    <p class="text-center txt">Order your pizza and we will deliver it to your location in less than 45
+                        minutes</p>
+                    <div class="h-buttons text-center">
+                        <a href="#menus">
                             <button class="button">Menu</button>
-                            </div>
+                        </a>
                     </div>
                 </div>
             </div>
         </div>
-        <br><br>
-        <div id="menus"></div>
-<div class="menu col-md-12">
-    <div class="menu-overlay">
-        <h1 class="text-center text-white" id="menu">Menu</h1>
-        <div class="pizza-menu row text-center">
-            <figure class="col-sm-4">
-                <img src="images/2.png" alt="small-pizza" class="wiggle">
-                <figcaption class="text-white">Regular<br>Ksh. 400</figcaption>
-            </figure>
-            <figure class="col-sm-4">
-                <img src="" alt="medium-pizza" class="wiggle">
-                <figcaption class="text-white">Medium<br>Ksh. 900</figcaption>
-            </figure>
-            <figure class="col-sm-4">
-                <img src="/" alt="large-pizza" class="wiggle">
-                <figcaption class="text-white">Large<br>Ksh. 1200</figcaption>
-            </figure>
+    </div>
+    <br><br>
+    <div id="menus">
+        <div class="menu col-md-12">
+            <div class="menu-overlay">
+                <h1 class="text-center text-white" id="menu">Menu</h1>
+                <div class="row1 ">
+                    <figure class="col-sm-4">
+                        <img src="images/pizzass.jpg" alt="smallpizza" style="width: 40%">
+                        <figcaption class="text-white">Small<br>Ksh. 400</figcaption>
+                    </figure>
+                    <figure class="col-sm-4">
+                        <img src="images/pizzass.jpg" alt="mediumpizza" style="width: 50%">
+                        <figcaption class="text-white">Medium<br>Ksh. 900</figcaption>
+                    </figure>
+                    <figure class="col-sm-4">
+                        <img src="images/pizzass.jpg" alt="largepizza" style="width: 100%">
+                        <figcaption class="text-white">Large<br>Ksh. 1200</figcaption>
+                    </figure>
+                    <br>
+                    <div class="h-buttons text-center">
+                        <a href="#order">
+                            <button class="button1">ORDER NOW</button>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
-</div>
+    <div class="orders" id="order">
+        <div id="container">
+            <h1 class="text-center" id="order-pizza">Order Pizza</h1>
+            <div class="col2">
+                <div class="row2">
+                    <form>
+                        <label>Pick your pizza Flavour:</label>
+                        <select class="choices" required>
+                            <option value="vegtikka">Veg Tikka</option>
+                            <option value="chickentikka">Chicken Tikka</option>
+                            <option value="periperi">Peri-Peri Chicken</option>
+                            <option value="bbq">BBQ Steak</option>
+                            <option value="boerewors">Boerewors</option>
+                            <option value="hawaiian">Hawaiian</option>
+                            <option value="mushroom">Chicken and Mushroom</option>
+                            <option value="regina">Regina Pizza</option>
+                        </select>
+                        <label>Chose your preferred Size:</label>
+                        <select class="choices" id="size" required>
+                            <option value="small">Small</option>
+                            <option value="medium">Medium</option>
+                            <option value="large">Large</option>
+                        </select>
+                        <label for="crust">Choose your favorite Crust:</label>
+                        <select class="choices" id="crust" required>
+                            <option value="thin">Thin Crust @ Ksh. 100</option>
+                            <option value="thick">Thick Crust @ Ksh. 150</option>
+                            <option value="flatbread">FlatBread Crust @ sh. 180</option>
+                            <option value="custom">Custom Crust @ sh. 280</option>
+                        </select>
+                        <label for="toppings">Choose your desired toppings:</label>
+                        <select class="choices" id="toppings" required>
+                            <option value="pepperoni">Pepperoni @ ksh. 100</option>
+                            <option value="mushroom">Mushroom @ ksh. 150</option>
+                            <option value="Onion">Bacon @ ksh. 200</option>
+                            <option value="cheese">Cheese @ ksh. 150</option>
+                            <option value="olive">Olive @ ksh. 100</option>
+                            <option value="Greenpapers">Greenpeppers @ ksh. 150</option>
+                            <option value="sausage">Sausage @ ksh. 200</option>
+                        </select>
+                        <br><br><br>
+                        <div id="row3">
+                        <label for="number">Number of Pizza's</label>
+                <input type="number" class="choices2" id="number" placeholder="Number of pizzas" min="1" required>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </div>
 
 
 </body>
