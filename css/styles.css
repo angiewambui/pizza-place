@@ -41,9 +41,6 @@ body{
     border-style: ridge;
     animation: bounce 2s infinite;
 }
-.col-md-12 {
-    
-  }
   .row1{
       display: flex;
 }
