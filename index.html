@@ -73,9 +73,11 @@
             </div>
         </div>
     </div>
-    <div class="orders" id="order">
+    <h1 classdiv class="orders" id="order">
         <div id="container">
-            <h1 class="text-center" id="order-pizza">Order Pizza</h1>
+            <div id="title">
+                <h1>ORDER NOW</h1>
+            </div>
             <div class="col2">
                 <div class="row2">
                     <form>
@@ -98,7 +100,7 @@
                         </select>
                         <label for="crust">Choose your favorite Crust:</label>
                         <select class="choices" id="crust" required>
-                            <option value="thin">Thin Crust @ Ksh. 100</option>
+                            <option value="thin">Thin Crust @ksh 200</option>
                             <option value="thick">Thick Crust @ Ksh. 150</option>
                             <option value="flatbread">FlatBread Crust @ sh. 180</option>
                             <option value="custom">Custom Crust @ sh. 280</option>
@@ -115,17 +117,80 @@
                         </select>
                         <br><br><br>
                         <div id="row3">
-                        <label for="number">Number of Pizza's</label>
-                <input type="number" class="choices2" id="number" placeholder="Number of pizzas" min="1" required>
+                            <label for="number">Number of Pizza's</label>
+                            <input type="number" class="choices2" id="number" placeholder="Number of pizzas" min="1"
+                                required>
                         </div>
                     </form>
+                    <a href="#summary">
+                        <button type="submit" class="btn btn-success checkout" id="checkout">
+                            Checkout
+                        </button>
+                    </a>
+
                 </div>
+                <div class="col-sm-2"></div>
             </div>
+        </div>
+        <div id="sumarry">
+            <div class="order-summary" id="sum-order">
+                <h1 class="text-center" id="summary">Order Summary</h1>
+                <h2 class="text-center summary">Hello there, your order is as follows:</h2>
+                <ol id="list" class="text-center sum">
+                </ol>
+
+            </div>
+        </div>
 
         </div>
-    </div>
+        </div>
+        <div class="cdata-overlay">
+            <div class="customerdata row">
+                <div class="col-sm-3"></div>
+                <form action="" class="form-group col-sm-6 data">
+                    <input type="text" class="form-control cdata" placeholder="Enter your Name:">
+                    <input type="text" class="form-control cdata" placeholder="Enter your phone number: ">
+                    <input type="text" class="form-control cdata" placeholder="Enter the location: ">
+                    <button class="btn bg-info text-center d-block mx-auto go">Make Delivery</button>
+                </form>
 
+                <div class="col-sm-3"></div>
+            </div>
+        </div>
+        <div class="d-block mx-auto text-center">
+            <button class='deliver'>Make Delivery</button>
+            <button class='delivernot'>Pick Up</button>
+        </div>
+        </div>
 
+        <div class="contacts">
+            <div class="contact-overlay">
+                <h1 class="text-center contact text-white">Contacts:</h1>
+                <div class="row">
+                    <div class="col-sm-1"></div>
+                    <div class="col-sm-5 subs">
+                        <h1 class="text-white text-center"> Call Us </h1>
+                        <p class="text-center">+254 1211 5461</p>
+                        <form>
+                            <div class="email-info">
+                                <div class="form-group fill-all-form">
+                                    <input type="email" class="form-control bg-transparent email" id="email"
+                                        placeholder="Email" required="">
+                                </div>
+                            </div>
+                            <div class=" email-info text-center">
+                                <button class="btn click-me" onclick="subscribe();">Subscribe</button>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-sm-5">
+                        <h4 class="text-center get-pizza">We love feedback..send us a mail</h4>
+                    </div>
+                    <div class="col-sm-1"></div>
+                </div>
+            </div>
+        </div>
+        </div>
 </body>
 
 </html>

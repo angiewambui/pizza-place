@@ -65,15 +65,21 @@ body{
     .col2{
         width: 100%;
         display: inline-block;
+        font-size: medium;
     }
     #container{
         margin: auto;
     }
     .choices{
         width: 100%;
-        padding-top: 34px;
-        padding-bottom: 34px;
+        padding-top: 20px;
+        padding-bottom: 20px;
         font-size: x-large; 
+        border: 2px solid red;
+        background-color: black;
+        color: white;
+        font-style: italic;
+
     }
     #row3{
         text-align: center;
@@ -83,4 +89,39 @@ body{
     padding-top: 20px;
     padding-bottom: 20px;
     font-size: x-large;
+    background-color: black;
+    color: red;
     }
+    
+#title{
+    font-size: large;
+}
+#summary{
+    font-size: medium;
+}
+h1{
+    font-size: large;
+}
+.click-me, button[type=submit], .deliver, .delivernot {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    letter-spacing: 2px;
+    background-color: #ffbf00;
+    outline: none;
+    padding: 12.5px 13px;
+    border: none;
+    border-radius: 33px;
+    font-size: 14px;
+}
+.contact-overlay {
+    height: inherit;
+    background-color: rgba(0, 0, 0, 0.7);
+    text-align: center;
+}
+.order-summary h1, .summary, .contact {
+    color: #000;
+    font-family: 'Love Ya Like A Sister', cursive;
+    margin-top: 30px;
+}
